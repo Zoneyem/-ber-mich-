@@ -4,7 +4,7 @@
     
     body{
         font-family: Arial, Helvetica, sans-serif;
-        background-color: grey;
+        background-color: lightblue;
         
         display: grid;
         
@@ -31,6 +31,7 @@
         align-items: center; 
         margin: 0 auto;
         position: relative;
+        
         
     }
     
@@ -91,7 +92,7 @@
         
     }
     h1{
-        color: whitesmoke;
+        color: slateblue;
         margin-left: 10px;
     }
     
@@ -284,7 +285,7 @@
     float: left;
     
     min-height: 1px;
-    background-color: blue;
+    background-color: white;
     margin-right: 10px;
     border: 2px solid grey; 
     border-radius: 10px;
@@ -634,7 +635,20 @@ a{
     margin-right: 0 auto ;;
 }
 
-}    
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Responsivität BEREICH*/@media screen and (min-width:450px){
 .newlay{
     height: 20%;
@@ -665,7 +679,7 @@ img{
 
 }
 
-/*Responsivität BEREICH*/@media screen and (min-width:1024px){
+/*Responsivität BEREICH*/@media screen and (min-width:1200px){
 
     .newlay{
         height: 40%;
