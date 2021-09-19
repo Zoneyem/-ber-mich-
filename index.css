@@ -210,7 +210,7 @@
     
     .firstevercontainer{
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1250px;
     }
     
     
@@ -335,10 +335,126 @@
 
   
 
+  /*Responsivität BEREICH*/@media screen and (min-width:100px)
+{
+    .firstevercontainer{
+       margin: 0 auto;
+        position: relative;
+    }
+    
+
+            body{
+                
+                max-width: auto;
+               
+            }
+            .leo1{
+                font-size: 20px;
+                font-weight: inherit;
+                display: none;
+            }
+        
+          .nav-container{
+              height: 50px;
+              margin: 0 auto;
+              width: 100%;
+              margin-bottom: 10px;
+              position: static;
+          }  
+         
+          img{
+        
+            width: 100%;
+            height: auto;
+            }
+            .leo1{
+                display: block;
+                margin-bottom:20px;
+            }
+          .row{
+              margin: 0;
+              position: relative;
+             
+                }     
+                 input{
+                  
+          margin: 2px;
+          
+          font: 1em sans-serif;
+          margin-top: 10px;
+      }
+      
+      label{
+          
+          font-size: 10px;
+          
+          margin-top: px; 
+          margin-left: 3px;
+         
+      }
+      
+      
+      
+      
+      form{
+      right: 0;
+      position: absolute;
+      width: 100%;
+      margin-right: 0px;
+      display: flex;
+      font-size: 14px;
+      margin-right: 1px;
+      padding: .55rem;
+      
+      
+      }
+       
+      .newlay{
+          right: 0;
+          position: absolute;
+          width: 40%;
+          margin-left: 3px;
+          margin-right: 3px;
+          height: 40%;
+      }
+      
+      .oldway{
+          width: 55%;
+         
+      }
+      p{
+          font: 1em sans-serif;
+          text-align: justify;
+      }
+      
+      .divimage{
+          width: 100%;
+      }
+
+.footer-container{
+    position: absolute;
+    
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    
+    
+
+}
+
+.desordre{
+    font-size: 12px;
+}
+
+.super{
+    margin-top: 20px;
+    margin-right: 0 auto ;
+}
+
+}  
+
 
 /*Responsivität 320px BEREICH*/
-
-/*Responsivität 760px BEREICH*/
 @media screen and (min-width:320px)
 
 {
@@ -510,137 +626,7 @@ a{
 
 
 
-      /*NAV Bereich*/
-
-
-
-
-
-
-
-
-
-  /*Responsivität BEREICH*/@media screen and (min-width:100px)
-{
-    .firstevercontainer{
-       
-        position: relative;
-    }
-
-            body{
-                
-                max-width: auto;
-               
-            }
-            .leo1{
-                font-size: 20px;
-                font-weight: inherit;
-                display: none;
-            }
-        
-          .nav-container{
-              height: 50px;
-              margin: 0 auto;
-              width: 100%;
-              margin-bottom: 10px;
-              position: static;
-          }  
-         
-          img{
-        
-            width: 100%;
-            height: auto;
-            }
-            .leo1{
-                display: block;
-                margin-bottom:20px;
-            }
-          .row{
-              margin: 0;
-              position: relative;
-             
-                }     
-                 input{
-                  
-          margin: 2px;
-          
-          font: 1em sans-serif;
-          margin-top: 10px;
-      }
-      
-      label{
-          
-          font-size: 10px;
-          
-          margin-top: px; 
-          margin-left: 3px;
-         
-      }
-      
-      
-      
-      
-      form{
-      right: 0;
-      position: absolute;
-      width: 100%;
-      margin-right: 0px;
-      display: flex;
-      font-size: 14px;
-      margin-right: 1px;
-      padding: .55rem;
-      
-      
-      }
-       
-      .newlay{
-          right: 0;
-          position: absolute;
-          width: 40%;
-          margin-left: 3px;
-          margin-right: 3px;
-          height: 10%;
-      }
-      
-      .oldway{
-          width: 55%;
-         
-      }
-      p{
-          font: 1em sans-serif;
-          text-align: justify;
-      }
-      
-      .divimage{
-          width: 100%;
-      }
-
-.footer-container{
-    position: absolute;
-    
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    
-    
-
-}
-
-.desordre{
-    font-size: 12px;
-}
-
-.super{
-    margin-top: 20px;
-    margin-right: 0 auto ;;
-}
-
-}  
-
-
-
-
-
+     
 
 
 
@@ -650,37 +636,31 @@ a{
 
 
 /*Responsivität BEREICH*/@media screen and (min-width:450px){
-.newlay{
-    height: 20%;
-}
-
-
-img{
-    width: 250px;
-      height: 250px;
-      display: inline;
-}
-
-
-}
-
-/*Responsivität BEREICH*/@media screen and (min-width:760px){
     .newlay{
-        height: 20%;
+        height: 40%;
     }
     
-    .firstevercontainer{
-       
-        position: relative;
-        margin: 0 auto;
+    
+    img{
+        width: 250px;
+          height: 250px;
+          display: inline;
     }
+    
+   
+    
+    }
+    
+    
 
 
 
-}
 
-/*Responsivität BEREICH*/@media screen and (min-width:1200px){
 
+/*Responsivität 760px BEREICH*/
+
+
+/*Responsivität BEREICH*/@media screen and (min-width:760px){
     .newlay{
         height: 40%;
     }
@@ -689,9 +669,38 @@ img{
        
         position: relative;
         margin: 0 auto;
-        max-width: 1200px;
     }
 
+    body{
+        background-color: springgreen;
+    }
+
+
+}
+
+
+/*Responsivität BEREICH*/
+
+@media screen and (min-width:1156px){
+
+    .newlay{
+        height: 40%;
+    }
+
+    body{
+        background-color: tan;
+    }
+    
+    .firstevercontainer{
+       
+        position: relative;
+        margin: 0 auto;
+        max-width: 1250px;
+        padding: 0;
+    }
+.derange{
+    float: left;
+}
 
    
     
@@ -699,4 +708,66 @@ img{
         padding: .55rem;
     }
 
+ 
 }
+
+/*Responsivität BEREICH*/
+
+@media screen and (min-width:1250px){
+
+    .newlay{
+        height: 40%;
+    }
+
+    body{
+        background-color: lightblue;
+    }
+    
+    .firstevercontainer{
+       
+        position: relative;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 0;
+    }
+.derange{
+    float: left;
+}
+
+   
+    
+    form{
+        padding: .55rem;
+    }
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
